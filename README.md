@@ -28,6 +28,8 @@ Bu proje, MNIST rakam görüntülerinden çeşitli gürültü türlerini kaldır
 
 ### Temel Bulgular
 
+![Karşılaştırma](images/compare.png)
+
 1. **Poisson Gürültüsü**: En iyi yeniden yapılandırma kalitesi (PSNR: 14.90 dB, SSIM: 0.6411)
 2. **Gauss Gürültüsü**: Gürültü giderme için en zorlayıcı (PSNR: 12.15 dB, SSIM: 0.1605)
 3. **Tuz ve Biber**: Orta seviye PSNR'ye rağmen düşük yapısal benzerlik gösterir
@@ -82,6 +84,7 @@ results = project.run_noise_comparison_experiment()
 # Sonuçları görselleştir
 plot_performance_comparison(results)
 ```
+![sonuç](images/bef_aft.png)
 
 ## 💻 Google Colab Desteği
 
@@ -89,6 +92,8 @@ Bu proje Google Colab üzerinde çalıştırılmaya uygundur
 https://colab.research.google.com/drive/1Tn9DYV53gmAEq9SDVk-1d3a3-kakR08M?usp=sharing
 
 ## 🔍 Gürültü Türleri Açıklaması
+
+![Gürültü türleri](images/noise.png)
 
 ### 1. Gauss Gürültüsü
 - **Özellikler**: Normal dağılım izleyen eklemeli beyaz gürültü
