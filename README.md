@@ -84,7 +84,7 @@ results = project.run_noise_comparison_experiment()
 # Sonuçları görselleştir
 plot_performance_comparison(results)
 ```
-![sonuç](images/bef_aft.png)
+![sonuç](images/bef_aft.jpeg)
 
 ## 💻 Google Colab Desteği
 
