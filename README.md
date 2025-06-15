@@ -142,13 +142,6 @@ Proje üç tür görselleştirme oluşturur:
 - NumPy, Matplotlib, Scikit-learn
 - Görselleştirme için Seaborn
 
-## 🤝 Katkıda Bulunma
-
-1. Depoyu fork edin
-2. Özellik dalı oluşturun (`git checkout -b feature/harika-ozellik`)
-3. Değişiklikleri commit edin (`git commit -m 'Harika özellik ekle'`)
-4. Dala push edin (`git push origin feature/harika-ozellik`)
-5. Pull Request açın
 
 ## 📜 Lisans
 
@@ -160,6 +153,4 @@ Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için LICENSE dosya
 - [Görüntü Kalitesi Değerlendirme](https://ieeexplore.ieee.org/document/1284395)
 - [Konvolüsyonel Otokodlayıcılar](https://blog.keras.io/building-autoencoders-in-keras.html)
 
----
 
-**Not**: Bu uygulama, gürültü giderme otokodlayıcılarının temel kavramlarını göstermektedir. Üretim kullanımı için daha gelişmiş mimariler ve optimizasyon tekniklerini göz önünde bulundurun.
